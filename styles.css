@@ -1,0 +1,74 @@
+
+body{
+
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+
+  font-family: 'Sacramento',cursive;
+  font-size: 562.5%;
+  line-height: 2;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.IntroImage{
+  background-color: #D6E0F0;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.IntroSection{
+  background-color: #8D93AB;
+
+}
+
+.SkillsSection{
+  background-color: #59C1BD;
+
+}
+
+.ExperienceSection{
+   background-color:#0D4C92
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.Electrical{
+  width: 20%;
+  height: 20%;
+  float: left;
+
+}
+
+
+/*<Span> this tag effectively lets you write inside a blocked element and give characteristics to your words
+without making it move to a new line, you can classify the span as a class and give that property to different sections  </Span>*/
+
+/*Display has 3 forms
+- Block doesnt allow other elements on the line
+- Inline allows other elements on the line but then you lose funcionality like width
+- inline-block allows elements on the line and you can edit its properties
+- none effectively removes it from the code*/
+
+/*Visibility lets you set a tag to hidden */

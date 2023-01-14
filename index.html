@@ -1,93 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jason Ziemons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon (2).ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
-<head>
+  </head>
+  <body>
 
-  <meta charset="utf-8">
-  <title>Jasons Personal Site</title>
+    <div class="IntroImage"> <!--A div allows us to divide our content up to structure each div seperately, they need to be used with CSS-->
 
-</head>
+      <img Id="MainScreen"src="Off Frame.png" alt="Cloud Image" usemap="#workmap">
 
-<body>
+      <map name="workmap">
+        <area shape="rect" coords="90,50,170,756" onclick="myFunction()">
+      </map>
 
-  <table cellspacing = 20>
-    <tr>
-      <td><img src="alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="Electrical image taken from Unsplash Photographer: Alexandre Debieve"></td>
-      <td>  <h1>Jason Dean Ziemons</h1>
-        <p><em>Electrical and information Engineer from the <strong>University of the Witwatersraand</strong>.</em></p>
-        <p> This is my bio, alot of effort as you can see.</p>
-      </td>
-    </tr>
-  </table>
+      <script>
+
+      function Timer(){
+        var time = setTimeout(ChangeToNext(),3000)
+      }
+
+      function ChangeToNext(){
+        document.getElementById("MainScreen").src="Next Button (3).gif";
+      }
+
+        function myFunction() {
+          document.getElementById("MainScreen").src="Intro Animation (1).gif";
+
+        }
+      </script>
+
+    </div>
+
+  <div class="IntroSection">
+  <div class="profile">
+    <img src="https://cdn-icons-png.flaticon.com/512/900/900618.png" alt="Image taken from flaticon" width="10%" height="10%"/>
+    <a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by Freepik - Flaticon</a>
+
+    <h2>Hello.</h2>
+    <p> This is my very first Website and experience with HTML, CSS and Javascript because I wanted to try and see what I can do...</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="Electrical" src="https://cdn-icons-png.flaticon.com/512/2421/2421271.png" alt="">
+      <a href="https://www.flaticon.com/free-icons/prototype" title="prototype icons">Prototype icons created by wanicon - Flaticon</a>
+      <h3>Electrical Systems Design</h3>
+      <p>Through my degree I learnt how to harness the power of electricity, equal to the likes of Zeus and Thor.</p>
+    </div>
+    <div class="skill-row">
+      <img class="Software" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47qtzmtznninnkgtlh8zdywtluy3eb2oszsmlygpq2&rid=giphy.gif&ct=g" alt="Giphy Art from Domme @dommespace" width="20%" height="20%">
+      <h3>Software Development</h3>
+      <p>I have learnt a few programming languages through my degree and self study</p>
+    </div>
+  </div>
+  <hr>
+
+</div>
 
 
-
-  <hr size="1" noshade>
-
-  <h3>Education</h3>
-  <ol>
-    <li><a href="https://maristbl.co.za/">Marist Brothers linmeyer</a></li>
-    <li>University of the Witwatersraand</li>
-  </ol>
-  <hr size="1" noshade>
-
-  <h3>Experience</h3>
-
-  <table>
-
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>2017-2021</td>
-        <td>Student at Wits</td>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>Salesforce Administrator</td>
-      </tr>
-    </tbody>
-
-    <tfoot>
-
-    </tfoot>
-
-  </table>
-
-<hr size="2" noshade>
-
+<div class="SkillsSection">
   <h3>Skills</h3>
-  <table cellspacing=20>
-    <tr>
-      <td>C++</td>
-      <td>🗹🗹🗹🗹☐</td>
-      <td>High Frequency Techniques</td>
-      <td>🗹🗹🗹☐☐</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>🗹🗹☐☐☐</td>
-      <td>MicroControllers</td>
-      <td>🗹🗹🗹☐☐</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>🗹🗹☐☐☐</td>
-      <td>Excel VBA</td>
-      <td>🗹🗹🗹☐☐</td>
-    </tr>
-  </table>
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p>© Name Surname.</p>
+</div>
 
-  <hr size="2" noshade>
-  <h3>Contact Details</h3>
-  <a href="Contact Details.html">Contact Me</a>
+<div class="ExperienceSection">
+  <h3>Work Experience</h3>
+</div>
 
+<div class="contact-me">
+  <h2>Get In Touch</h2>
+  <h3>Lets chat... perhaps over a coffee 😏</h3>
+  <p>Im here, then there and sometimes at that other place</p>
+  <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+  <br>
+</div>
 
-</body>
-
+  </body>
 </html>
