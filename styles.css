@@ -2,40 +2,156 @@
 body{
 
   text-align: center;
-  font-family: 'Merriweather', serif;
-
+  font-family: 'Montserrat', serif;
+  margin: 1%;
 }
 
-h1{
-
-  font-family: 'Sacramento',cursive;
-  font-size: 562.5%;
-  line-height: 2;
-
-}
 
 h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-family: 'Indie Flower' , sans-serif;
+  font-weight: bolder;
+  font-size:2.5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
 h3{
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Indie Flower', sans-serif;
+  font-size:2vw;
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0.5em;
+  text-decoration: underline;
 
+}
+
+p{
+    font-size:1.1vw;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 2%
+}
+
+li{
+  font-size:1.1vw;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: justify;
+    margin-left: 40%;
+}
+
+hr{
+  border-top: 2px solid black;
+  margin: 0;
+}
+
+.inline_p{
+  display: inline-flex;
+  text-align: justify;
+  width: 65%;
+  border: double black;
+  border-width: 0.5em;
+  border-radius: 3em;
+  padding: 2%;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 .IntroImage{
-  background-color: #D6E0F0;
+  background-image: url("Background1 (14).jpg");
+  background-size: 100%;
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+
 }
 
-.IntroSection{
-  background-color: #8D93AB;
+#MainScreen{
+  height: 70%;
+  width: 60%;
 
+
+}
+.Jason{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  margin-right: 1%;
+  border-width: 0.3em;
+  border-color: black;
+  border-style: solid;
+  float:left;
+  margin-left: 3%;
+  margin-top: 6%;
+}
+
+.CareerObjective{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  margin-left: 1%;
+  border-width: thick;
+  border-color: black;
+  border-style: solid;
+  float:right;
+  margin-right: 3%;
+  margin-top:6%;
+}
+.SchoolMarks{
+  border-width: medium;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1em;
+  width: 30%;
+  margin: auto;
+  background-color: lightblue;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+
+}
+
+
+.VerticalLineR{
+
+  width: 5em;
+  height: 1em;
+  margin:auto;
+  border-style: dotted;
+  border-width: 0 1em 0 0;
+
+}
+
+.VerticalLineL{
+
+  width: 5em;
+  height: 1em;
+  margin:auto;
+  border-style: dotted;
+  border-width: 0 0 0 1em;
+
+}
+
+.Seperators{
+  margin: 0;
+}
+
+.AboutMe{
+  background-color: #c1cad8;
+  margin: 0;
+}
+.IntroSection{
+  background-color: #D6E0F0;
+  padding-bottom: 16px;
+  margin:0;
+}
+
+.Education{
+  background-color: #c1cad8;
+  margin:0;
 }
 
 .SkillsSection{
