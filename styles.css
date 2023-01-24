@@ -10,7 +10,7 @@ body{
 h2{
   font-family: 'Indie Flower' , sans-serif;
   font-weight: bolder;
-  font-size:2.5vw;
+  font-size:2vw;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0.3em;
@@ -20,7 +20,7 @@ h2{
 h3{
 
   font-family: 'Indie Flower', sans-serif;
-  font-size:2vw;
+  font-size:1.5vw;
   font-weight: bolder;
   margin-bottom: 0;
   margin-top: 0;
@@ -33,7 +33,7 @@ p{
     font-size:1.1vw;
     font-weight: 600;
     line-height: 1.5;
-    margin-bottom: 2%
+    margin-bottom: 2%;
 }
 
 li{
@@ -101,22 +101,29 @@ hr{
   margin-right: 3%;
   margin-top:6%;
 }
+.DownloadIcon{
+  height: 5%;
+  width:4%;
+  padding-left: 3%;
+
+}
+
 .SchoolMarks{
-  border-width: medium;
+  border-width: thin;
   border-color: black;
   border-style: solid;
-  border-radius: 1em;
-  width: 30%;
+  border-radius: 0.6em;
+  width: 80%;
   margin: auto;
-  background-color: lightblue;
+  background-color: white;
   padding-top: 0.4em;
   padding-bottom: 0.4em;
+  margin-bottom:0.4em;
 
 }
 
 
 .VerticalLineR{
-
   width: 5em;
   height: 1em;
   margin:auto;
@@ -126,13 +133,103 @@ hr{
 }
 
 .VerticalLineL{
-
   width: 5em;
   height: 1em;
   margin:auto;
   border-style: dotted;
   border-width: 0 0 0 1em;
 
+}
+
+.Timeline{
+  margin: auto;
+  max-width: 80%;
+  padding: 2%;
+  display:grid;
+  grid-template-columns: 1fr 4px 1fr;
+
+}
+.Timeline__Component{
+  margin: 0 20px 80px 20px;
+}
+
+.Timeline__Component__bg{
+  padding: 1.5em;
+  background-color: #E1EEFF;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+.Timeline__Component__border{
+  padding: 1.5em;
+  background-color: #c1cad8;
+  border-radius: 10px;
+  border: double;
+  border-width: thick;
+}
+
+.Timeline__dateR{
+  text-align:right;
+  font-size: 1.15em;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+}
+.Timeline__dateL{
+  text-align:left;
+  font-size: 1.15em;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+}
+
+.Timeline__Middle{
+  position: relative;
+  background: white;
+}
+
+.Timeline__Point{
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+}
+.Timeline__Point__Bottom{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: black;
+  top: initial;
+  bottom: 0;
+}
+
+.Timeline__Title{
+  margin:0;
+  font-size: 1.15em;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+}
+.Years{
+  margin:0;
+  font-size: 1.5em;
+  font-family: 'Montserrat', serif;
+
+}
+.Timeline__Paragraph{
+  margin:0.5em;
+  font-size: 0.8em;
+  line-height: 1.5;
+  font-family: 'Montserrat', serif;
+}
+.ReducedMargin{
+  margin-bottom:10px;
+}
+.download{
+  background-color: #c1cad8;
 }
 
 .Seperators{
@@ -153,9 +250,25 @@ hr{
   background-color: #c1cad8;
   margin:0;
 }
+.EducationSection{
+  background-color: #82A6CB;
+}
 
 .SkillsSection{
   background-color: #59C1BD;
+
+}
+.SkillsTab{
+
+  background-color: lightblue;
+  width: 12em;
+  height:7em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  border-radius: 1em 0 0 1em;
+}
+.SkillsTabText{
 
 }
 
