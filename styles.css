@@ -45,7 +45,7 @@ body{
 }
 
 .accordion-button{
-  background-color: #6096B4;
+  background-color: #276678;
 }
 .AccordionHeaderFormat{
   font-family: 'Ubuntu', sans-serif;
@@ -58,12 +58,16 @@ body{
   margin-left: 0;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #FFF;
+  background-color: #1687A7;
+}
 
 @Media (max-width:992px){
 
   .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
-    font-size:1.8rem;
+    font-size:2.2rem;
     font-weight:bold;
     margin: auto;
   }
@@ -80,9 +84,8 @@ body{
 
   }
   .navbar{
-    padding:0 0 1rem 0;
+    padding:0 0 1.5rem 0;
   }
-
 
   #IntroSection{
     background-image: url("Intro Background Paper9.png");
