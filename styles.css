@@ -149,6 +149,7 @@ body{
   padding-bottom: 1%;
 }
 
+
 .contactMeIcons{
   font-size: 1.1rem;
 }
@@ -354,6 +355,9 @@ body{
   background: lightgrey;
   position: relative;
   border-radius: 0 500px 500px 0;
+  border-style:double;
+  border-width:thick;
+  border-color: #006E51;
 }
 
 .container.right .content {
