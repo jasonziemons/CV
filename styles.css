@@ -101,7 +101,62 @@ body{
   text-align: justify;
 }
 
+.skillImages{
+  width:40%;
+  height: 50%;
+  margin:auto;
+  margin-top: 3%;
+}
 
+.CarouselImages{
+  width:30%;
+  height: 20%;
+  padding-bottom: 10%
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.ReferenceContent{
+  border-style: inset;
+  border-width: 10px;
+  border-radius: 10px;
+  border-color: #A1CCD1;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover {
+  background-color: #8EC3B0;
+  border-color: black;
+}
+
+.ContactMeBackground{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: darkgrey;
+  background-color: #E8E8E8;
+  padding-top: 1%;
+}
+
+.urlStyle{
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.headingspace{
+  padding-bottom: 1%;
+}
+
+.contactMeIcons{
+  font-size: 1.1rem;
+}
+
+.Centrediv{
+  text-align: center;
+  margin: auto;
+}
 
 @Media (max-width:1600px){
 
@@ -120,8 +175,8 @@ body{
 
   .Jason{
     border-radius: 50%;
-    width: 50%;
-    height: 65%;
+    width: 30%;
+    height: 55%;
   }
 
   .Left{
@@ -315,7 +370,7 @@ body{
   }
 
   .container {
-    width: 100%;
+    width: 110%;
     padding-left: 120px;
     /*--padding-right: 60px;--*/
   }
@@ -329,31 +384,31 @@ body{
 
   .container.left::after,
   .container.right::after {
-    left: 38%;
+    left: 35%;
   }
 
   .container.left::before,
   .container.right::before {
-    left: 40%;
+    left: 35%;
     border-color: transparent #006E51 transparent transparent;
   }
 
   .container.left .date,
   .container.right .date {
     right: auto;
-    left: 17%;
+    left: 16%;
   }
 
   .container.left .icon,
   .container.right .icon {
     right: auto;
-    left: 50%;
+    left: 45%;
   }
 
   .container.left .content,
   .container.right .content {
     left: 25%;
     padding: 30px 30px 30px 90px;
-    border-radius: 500px 0 0 500px;
+    border-radius: 100px 0 0 100px;
   }
 }
