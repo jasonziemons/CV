@@ -76,6 +76,17 @@ body{
   height: 70%;
   margin-top:12%;
 }
+.goal{
+  width: 80%;
+  height: 80%;
+  margin-top:12%;
+}
+
+.hobby{
+  width: 70%;
+  height: 80%;
+  margin-top:1%;
+}
 
 .MapMarker{
   margin-bottom: 5%;
@@ -177,21 +188,37 @@ body{
 }
 
 @Media (max-width:992px){
-
+  .DivScale{
+    height: 67%;
+  }
   .Jason{
     border-radius: 50%;
     width: 40%;
     height: 65%;
-    margin: 5%;
+    margin-bottom: 4%;
+    margin-top:2%;
+  }
+
+  .goal{
+    width: 60%;
+    height: 60%;
+    margin-top:1%;
+  }
+  .hobby{
+    width: 60%;
+    height: 60%;
+    margin-top:1%;
   }
 
   .Left{
     text-align: center;
-    padding-left: 15%;
+
   }
   .Right{
-    text-align: center;
-    padding-right: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .navbar-brand{
