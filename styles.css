@@ -134,6 +134,7 @@ body{
   border-width: 10px;
   border-radius: 10px;
   border-color: #A1CCD1;
+  padding: 1% 8%;
 }
 
 .list-group-item.active,
