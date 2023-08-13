@@ -193,20 +193,20 @@ body{
   }
   .Jason{
     border-radius: 50%;
-    width: 40%;
-    height: 65%;
+    width: 30%;
+    height: 55%;
     margin-bottom: 4%;
     margin-top:2%;
   }
 
   .goal{
-    width: 60%;
-    height: 60%;
+    width: 45%;
+    height: 45%;
     margin-top:1%;
   }
   .hobby{
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
     margin-top:1%;
   }
 
