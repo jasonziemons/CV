@@ -210,10 +210,6 @@ body{
 
 }
 
-
-
-
-
 }
 
 @Media (max-width:992px){
@@ -255,7 +251,10 @@ body{
   margin-bottom: 1%;
 }
 
-
+.AboutText{
+  font-size:1rem;
+  text-align: center;
+}
 
   .Left{
     text-align: center;
