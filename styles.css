@@ -28,6 +28,9 @@ body{
 .navbar{
   padding:1rem 0 2rem 0;
 }
+.centre_alignment{
+  text-align: center;
+}
 
 
 .navbar-brand{
@@ -483,6 +486,9 @@ body{
     height: 15%;
 
   }
+  .centre_alignment{
+    text-align: justify;
+  }
 }
 
 @Media  (max-width:400px){
@@ -526,6 +532,9 @@ body{
     border-radius: 100px;
     padding: 10%;
     border-color: #E8F6EF;
+  }
+  .centre_alignment{
+    text-align: justify;
   }
 }
 
