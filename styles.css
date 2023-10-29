@@ -2,6 +2,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   text-align:center;
   margin:0.5%;
+
 }
 
 #IntroSection{
@@ -27,9 +28,11 @@ body{
 .navbar{
   padding:1rem 0 2rem 0;
 }
+
+
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
-  font-size:2.6rem;
+  font-size:2.4rem;
   font-weight:bold;
 }
 .navbar-brand:hover{
@@ -42,12 +45,15 @@ body{
 }
 .nav-link{
       color:#ffffff;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
 }
 .nav-link:hover{
   color:#000000;
 }
 
+.ms-auto{
+  margin: auto;
+}
 
 .accordion-button{
   background-color: #276678;
@@ -72,9 +78,10 @@ body{
 
 .Jason{
   border-radius: 50%;
-  width: 12%;
-  height: 10%;
+  width: 25%;
+  height: 20%;
   margin-top:2%;
+  margin-bottom:2%;
 }
 .goal{
   width: 20%;
@@ -133,9 +140,17 @@ body{
 }
 
 .CarouselImages{
-  width:40%;
-  height: 20%;
-  padding-bottom: 15%
+  width:30%;
+  height: 15%;
+}
+
+.carousel-caption {
+  padding-top: 2%;
+  position: relative;
+  left: auto;
+  right: auto;
+  text-align: center;
+  margin:1% 20%;
 }
 
 .bold{
@@ -199,18 +214,141 @@ body{
   color: grey;
 }
 
-@Media (max-width:1600px){
+@Media  (min-width:3500px){
+
+  .navbar-brand{
+    font-size: 7rem;
+  }
+
+  .nav-link{
+    font-size: 5rem;
+  }
+
+  .AboutText{
+    font-size: 7rem;
+  }
 
   .Jason{
-  border-radius: 50%;
-  width: 25%;
-  height: 20%;
-  margin:auto;
-  margin-bottom: 1%;
+    border-radius: 50%;
+    width: 15%;
+    height: 30%;
+    margin-bottom: 2%;
+    margin-top:1%;
+  }
+  h3{
+    font-size: 4rem;
+  }
+  .AccordionHeaderFormat{
+    font-size: 4rem;
+  }
+  .CarouselImages{
+    width:30%;
+    height: 15%;
+  }
 
 }
 
+@Media  (min-width:2850px){
+
+  .navbar-brand{
+    font-size: 4rem;
+  }
+
+  .nav-link{
+    font-size: 2.2rem;
+  }
+
+  .AboutText{
+    font-size: 4rem;
+  }
+
+  .Jason{
+    border-radius: 50%;
+    width: 20%;
+    height: 35%;
+    margin-bottom: 2%;
+    margin-top:1%;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  .AccordionHeaderFormat{
+    font-size: 3rem;
+  }
+  .CarouselImages{
+    width:20%;
+    height: 10%;
+  }
+
 }
+
+@Media  (min-width:2500px){
+
+  .navbar-brand{
+    font-size: 4rem;
+  }
+
+  .nav-link{
+    font-size: 2.2rem;
+  }
+
+  .AboutText{
+    font-size: 1.8rem;
+  }
+
+  .Jason{
+    border-radius: 50%;
+    width: 30%;
+    height: 35%;
+    margin-bottom: 2%;
+    margin-top:1%;
+  }
+  h3{
+    font-size: 2.5rem;
+  }
+  .AccordionHeaderFormat{
+    font-size: 1.8rem;
+  }
+  .CarouselImages{
+    width:25%;
+    height: 12%;
+  }
+
+}
+
+@Media  (min-width:2200px){
+
+  .navbar-brand{
+    font-size: 3.3rem;
+  }
+
+  .nav-link{
+    font-size: 1.6rem;
+  }
+
+  .AboutText{
+    font-size: 1.5rem;
+  }
+
+  .Jason{
+    border-radius: 50%;
+    width: 25%;
+    height: 40%;
+    margin-bottom: 2%;
+    margin-top:1%;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  .AccordionHeaderFormat{
+    font-size: 1.5rem;
+  }
+  .CarouselImages{
+    width:25%;
+    height: 12%;
+  }
+}
+
 
 @Media (max-width:992px){
   .DivScale{
@@ -236,7 +374,9 @@ body{
   padding: 6%;
   border-color: #E8F6EF;
 }
-
+.AboutText{
+  font-size: 3rem;
+}
   .goal{
   width: 40%;
   height: 40%;
@@ -252,7 +392,7 @@ body{
 }
 
 .AboutText{
-  font-size:1rem;
+  font-size:0.5rem;
   text-align: center;
 }
 
@@ -307,11 +447,12 @@ body{
   .CarouselImages{
     width:60%;
     height: 40%;
-    padding-bottom: 30%
+    /* padding-bottom: 30% */
   }
 
 
 }
+
 
 /*Timeline code*/
 
