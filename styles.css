@@ -350,6 +350,7 @@ body{
 }
 
 
+
 @Media (max-width:992px){
   .DivScale{
     height: 67%;
@@ -447,8 +448,85 @@ body{
     height: 40%;
     /* padding-bottom: 30% */
   }
+}
 
+@Media  (max-width:600px){
 
+  .navbar-brand{
+    font-size: 2rem;
+  }
+
+  .nav-link{
+    font-size: 1rem;
+  }
+
+  .AboutText{
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .Jason{
+    border-radius: 50%;
+    width: 45%;
+    height: 55%;
+    margin-bottom: 2%;
+    margin-top:1%;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  .AccordionHeaderFormat{
+    font-size: 1.2rem;
+  }
+  .CarouselImages{
+    width:65%;
+    height: 15%;
+
+  }
+}
+
+@Media  (max-width:400px){
+
+  .navbar-brand{
+    font-size: 1rem;
+  }
+
+  .nav-link{
+    font-size: 0.7rem;
+  }
+
+  .AboutText{
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  .Jason{
+    border-radius: 50%;
+    width: 45%;
+    height: 55%;
+    margin-bottom: 2%;
+    margin-top:1%;
+  }
+  h3{
+    font-size: 0.6rem;
+  }
+  h5{
+    font-size: 0.6rem;
+  }
+  .AccordionHeaderFormat{
+    font-size: 0.5rem;
+  }
+  .CarouselImages{
+    width:65%;
+    height: 15%;
+  }
+  .Border{
+    border-style:inset;
+    border-width: medium;
+    border-radius: 100px;
+    padding: 10%;
+    border-color: #E8F6EF;
+  }
 }
 
 /*Timeline code*/
@@ -646,5 +724,55 @@ body{
     left: 25%;
     padding: 30px 30px 30px 90px;
     border-radius: 100px 100px 100px 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .timeline::after {
+    left: 0%;
+  }
+
+  .container {
+    width: 110%;
+    padding-left: 5px;
+    /*--padding-right: 60px;--*/
+  }
+
+  .container.right {
+    left: -20%;
+  }
+  .container.left {
+    left: -20%;
+  }
+
+
+  .container.left::before,
+  .container.right::before {
+    left: -35%;
+    border-color: transparent #006E51 transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+
+    left: -30%;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+
+    left: -35%;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    left: 25%;
+    padding: 30px 10px 30px 10px;
+    border-radius: 100px 100px 100px 100px;
+  }
+
+  .container::after {
+    width: 0px;
+    height: 0px;
   }
 }
