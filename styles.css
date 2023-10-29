@@ -534,6 +534,7 @@ body{
     border-color: #E8F6EF;
   }
   .centre_alignment{
+    font-size: 0.3rem;
     text-align: justify;
   }
 }
