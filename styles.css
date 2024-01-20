@@ -15,6 +15,8 @@ body{
 
 }
 
+
+
 .HeadingPadding{
   margin-top: 3%;
   margin-bottom: 3%;
@@ -32,6 +34,10 @@ body{
   text-align: center;
 }
 
+.image_border{
+  border: 5px solid #555;
+  height: 10%;
+}
 
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
@@ -131,7 +137,7 @@ body{
   font-size: 13rem;
 }
 .AboutText{
-  font-size:1.3rem;
+  font-size:1.0rem;
   text-align: justify;
 }
 
@@ -661,7 +667,7 @@ body{
 
 .container .content {
   padding: 30px 90px 30px 30px;
-  background: lightgrey;
+  background: #F5F7F8;
   position: relative;
   border-radius: 100px 100px 100px 100px;
   border-style:double;
